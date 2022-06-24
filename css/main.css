@@ -57,8 +57,17 @@ body {
 .banner {
   position: relative;
   display: block;
+  height: 50px;
 }
 
+.sw-banner a {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+.sw-banner .banner-1 {
+  background: url("../images/banner_pc_1.jpg") no-repeat center;
+}
 /* ========== 레이아웃 ========== */
 .wap {
   position: relative;
